@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080';
+const API_URL = 'job-search-backend-production-3f1d.up.railway.app';
 
 export const savePost = async (payload) => {
     try {

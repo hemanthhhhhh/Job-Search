@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'job-search-backend-production-2c71.up.railway.app';
+const API_URL = 'https://job-search-backend-production-bcab.up.railway.app/post';
 
 export const savePost = async (payload) => {
     try {
